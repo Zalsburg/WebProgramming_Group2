@@ -1,0 +1,23 @@
+h1 {
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: rgb(131, 96, 20);
+}
+
+h2 {
+    color: rgb(250, 210, 124);
+}
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(131, 96, 20);
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 200px
+}
+
+.middle-container {
+    text-align: center;
+}
