@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(62, 76, 87);
+    font-family: Verdana;
+}
+
+* {
+    box-sizing: border-box;
+}
+.page {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social {
+    white-space: nowrap;
+    font-size: 0px;
+}
+
+.icon {
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+.facebook {
+    background-color: rgb(61, 89, 154);
+    display: inline-block;
+    width: 50%;
+    border: 0px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+}
+
+.twitter {
+    background-color: rgb(87, 171, 231);
+    display: inline-block;
+    width: 50%;
+    border: 0px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+}
+
+.sign-up {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+}
+
+.name {
+    color: slategrey;
+    border: 0px;
+    padding: 10px 5px;
+    width: 50%;
+    display: inline-block;
+    margin: 1px;
+}
+
+.email {
+    color: slategrey;
+    border: 0px;
+    padding: 10px 5px;
+    width: 100%;
+    margin: 20px 1px 10px 1px;
+}
+
+.password {
+    color: slategrey;
+    border: 0px;
+    padding: 10px 5px;
+    width: 100%;
+    margin: 10px 1px 20px 1px;
+}
+
+.terms {
+    color: rgb(57, 114, 134)
+}
+
+.create {
+    background-color: rgb(66, 163, 109);
+    border: 0px;
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+input:focus {
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    border-color: rgb(66, 163, 109);
+    color: black;
+
+}
+
+.template-author {
+    color: rgb(113, 156, 188)
+}
