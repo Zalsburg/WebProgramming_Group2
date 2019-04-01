@@ -1,0 +1,16 @@
+.box-test > * > * > div {
+    border-style: dotted;
+    border-color: red;
+    min-height: 200px;
+}
+
+.numbers {
+    font-size: 60px;
+}
+
+.button {
+    color: white;
+    background-color: grey;
+    border: 0px;
+    text-align: center;
+}
